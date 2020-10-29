@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+html {
+  background-image: url(assets/christmasBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 
 body {
   min-height: 100vh;
@@ -13,6 +20,7 @@ body {
   color: white;
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 2px;
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #snowBg {
@@ -45,3 +53,4 @@ h1  {
 .countdown-item p{
   font-size: 2rem;
 }
+
