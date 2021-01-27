@@ -4,7 +4,7 @@ const mintutesOp = document.querySelector("#minutesOp");
 const secondsOp = document.querySelector("#secondsOp");
 
 
-const christmasDay = "25 Dec 2020";
+const christmasDay = "25 Dec 2021";
 
 function countdown(){
   const christmasDayDate = new Date(christmasDay);

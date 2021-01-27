@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image: url(assets/christmasBg.jpg);
+  background-image: url(assets/christmasBgImg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -20,15 +20,7 @@ body {
   color: white;
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 2px;
-   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-#snowBg {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1  {
@@ -38,7 +30,10 @@ h1  {
 
 #countdown-container{
  display: flex;
+ justify-content: center;
+ align-items: center;
  z-index: 1;
+ margin: 0 auto;
 }
 
 .countdown-item{
@@ -47,7 +42,7 @@ h1  {
 }
 
 .countdown-item span {
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 .countdown-item p{
